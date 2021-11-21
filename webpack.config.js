@@ -26,12 +26,12 @@ module.exports = {
     resolve: {
         extensions: ['.js'],
         alias: {
-            api: 'src/api',
-            icons: 'src/assets/icons',
-            styles: 'src/assets/style', 
-            components: 'src/components',
-            pages: 'src/pages',
-            utils: 'src/utils'
+            api: resolve('src/api'),
+            icons: resolve('src/assets/icons'),
+            styles: resolve('src/assets/style'), 
+            components: resolve('src/components'),
+            pages: resolve('src/pages'),
+            utils: resolve('src/utils')
         }
     },
     // 模块
@@ -56,7 +56,7 @@ module.exports = {
                 
             },
             {
-                test: /\.(eot|tff|woff2?)$/,
+                test: /\.(eot|ttf|woff2?)$/,
                 loader: 'url-loader',
                 options: {
                     limit: 10000,
