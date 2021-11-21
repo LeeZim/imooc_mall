@@ -12,6 +12,10 @@
     height: 54px;
 }
 
+.header .searchbox {
+    width: 89.3333%;
+}
+
 .nav-layout, .slider-layout, .product-layout {
     background-color: #fff;
 }

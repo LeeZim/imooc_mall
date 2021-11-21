@@ -10,11 +10,11 @@
     <div id="index-page" class="index-layout">
         <!-- 头部 -->
         <header class="header-layout">
-            头部
+            {{ include './components/header/header.art'}}
         </header>
 
         <!-- 幻灯片 -->
-        <div id="index-slider" class="slider-layout">
+        <div id="index-slider" class="slider-layout" style="height: 4000px">
             幻灯片
         </div>
 
