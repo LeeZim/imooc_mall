@@ -20,6 +20,10 @@
     background-color: #fff;
 }
 
+.slider-layout .loading {
+    padding: 60px 0;
+}
+
 .nav-layout {
     margin-bottom: 10px;
 }
@@ -35,7 +39,7 @@
     z-index: 1000;
 }
 
-.bactop-layout {
+.backtop-layout {
     position: fixed;
     right: 10px;
     bottom: 60px;

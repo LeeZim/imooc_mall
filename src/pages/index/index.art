@@ -14,8 +14,8 @@
         </header>
 
         <!-- 幻灯片 -->
-        <div id="index-slider" class="slider-layout" style="height: 4000px">
-            幻灯片
+        <div id="index-slider" class="slider-layout">
+            {{ include '../../components/loading/loading.art'}}
         </div>
 
         <!-- 导航 -->

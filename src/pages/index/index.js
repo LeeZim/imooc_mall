@@ -4,3 +4,4 @@ import 'styles/base.css'
 import './index.css'
 
 import './components'
+import 'components'

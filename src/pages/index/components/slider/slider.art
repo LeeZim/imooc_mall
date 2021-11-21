@@ -1,0 +1,26 @@
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        {{each data}}
+            <div class="swiper-slide">
+                <a href="javascript:;">
+                    <img src="{{ $value.url }}" alt="">
+                </a>
+            </div>
+        {{/each}}
+    </div>
+    <!-- 如果需要分页器 -->
+    {{if config.pagination && config.pagination.el}}
+        <div class="swiper-pagination"></div>
+    {{/if}}
+
+    <!-- 如果需要导航按钮 -->
+    {{if config.navigation && config.navigation.nextEl && config.navigation.prevEl}}
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    {{/if}}
+    
+    <!-- 如果需要滚动条 -->
+    {{if config.scrollbar && config.scrollbar.el}}
+        <div class="swiper-scrollbar"></div>
+    {{/if}}
+</div>

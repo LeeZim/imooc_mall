@@ -18,6 +18,7 @@
   "homepage": "https://github.com/LeeZim/imooc_mall#readme",
   "devDependencies": {
     "art-template-loader": "^1.4.3",
+    "axios": "^0.24.0",
     "css-loader": "^4.2.1",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
