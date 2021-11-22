@@ -9,6 +9,6 @@ export default {
     }
 }
 
-export const sliderApi = 'https://www.imooc.com/api/mall-wepApp/index/slider'
+export const apiUrl = 'https://www.imooc.com/api/mall-wepApp/index/slider'
 
 export const LAYOUT_ID = 'index-slider'

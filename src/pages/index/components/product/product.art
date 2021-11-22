@@ -1,0 +1,13 @@
+<div class="product">
+    <h2 class="product-title">精选折扣</h2>
+    <ul id="product-list" class="product-list">
+        {{each data}}
+            <li class="product-item">
+                {{ include './item.art' $value }}
+            </li>
+        {{/each}}
+        {{if !data}}
+            {{ include '../../../../components/loading/loading.art' }}
+        {{/if}}
+    </ul>
+</div>

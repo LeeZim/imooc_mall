@@ -1,0 +1,38 @@
+.product {
+    padding: 20px 20px 0 0;
+}
+
+.product-title {
+    color: #191919;
+    font-size: 16px;
+    padding: 0 0 10px 20px;
+    width: 100%;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    width: 50%;
+    padding:  0 0 13px 20px;
+}
+
+.product-img img{
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.product-text {
+    line-height: 20px;
+    height: 40px;
+    margin-bottom: 4px;
+    color: #333;
+    font-size: 14px;
+}
+
+.product-price {
+    color: #e93b3b;
+    font-size: 14px;
+}

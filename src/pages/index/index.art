@@ -25,7 +25,7 @@
 
         <!-- 精选折扣 -->
         <div id="index-product" class="product-layout">
-            精选折扣
+            {{ include './components/product/product.art' }}
         </div>
 
         <!-- 标签栏 -->

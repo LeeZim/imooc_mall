@@ -1,0 +1,1 @@
+export const ICODE = 'J3043ACE4EF9CD6F8'

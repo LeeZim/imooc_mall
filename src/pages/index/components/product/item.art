@@ -1,0 +1,9 @@
+<a href="./details.html?id={{$data.id}}">
+  <p class="product-img">
+    <img src="{{$data.url}}" alt="" />
+  </p>
+  <p class="product-text" twrap2>
+    {{$data.title}}
+  </p>
+  <p class="product-price">{{$data.price}}元起</p>
+</a>
