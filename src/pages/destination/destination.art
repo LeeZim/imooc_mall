@@ -10,7 +10,7 @@
     <div id="destination-page" class="destination-layout">
         <!-- 头部 -->
         <header class="header-layout">
-            头部
+            {{ include './components/header/header.art'}}
         </header>
     
         <!-- 主体 -->
