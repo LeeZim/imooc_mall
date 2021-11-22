@@ -1,0 +1,10 @@
+<ul class="nav">
+    {{each data}}
+        <li class="nav-item">
+            <a class="nav-link" href="javascript:;">
+                <img src="{{ $value.url }}" alt="" class="nav-img">
+                <span>{{ $value.text }}</span>
+            </a>
+        </li>
+    {{/each}}
+</ul>
