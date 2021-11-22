@@ -34,8 +34,8 @@
         </div>
 
         <!-- 返回顶部 -->
-        <div class="bactop-layout">
-            返回顶部
+        <div class="backtop-layout">
+            {{ include '../../components/backtop/backtop.art' }}
         </div>
     </div>
 </body>
