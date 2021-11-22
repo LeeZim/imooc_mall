@@ -12,8 +12,8 @@ module.exports = {
     mode: 'development',
     // 入口文件
     entry: {
-        index: './src/pages/index',
-        destination: './src/pages/destination'
+        index: './src/pages/index/index.js',
+        destination: './src/pages/destination/index.js'
     },
     // webpack输出路径
     output: {
@@ -71,10 +71,13 @@ module.exports = {
         new htmlWebpackPlugin({
             filename: 'index.html',
             template: './src/pages/index/index.art'
+            ,
+            chunks: ['index']
         }),
         new htmlWebpackPlugin({
             filename: 'destination.html',
-            template: './src/pages/destination/destination.art'
+            template: './src/pages/destination/destination.art',
+            chunks: ['destination']
         })
     ]
 }
