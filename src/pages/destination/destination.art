@@ -15,7 +15,7 @@
     
         <!-- 主体 -->
         <section class="main-layout">
-            主体
+            {{ include './components/main/main.art' }}
         </section>
     
         <!-- 标签栏 -->

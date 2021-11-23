@@ -1,0 +1,3 @@
+<ul class="content">
+    <% include('./item.art', { data: $data.data }) %>
+</ul>

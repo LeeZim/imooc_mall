@@ -23,10 +23,6 @@ class Scroll {
                 this.reset()
             }
         })
-
-        this.eventEl.addEventListener('click', () => {
-            this.scrollTo()
-        })
     }
 
     scrollTo(top = 0, left = 0) {

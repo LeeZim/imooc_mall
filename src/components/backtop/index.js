@@ -4,26 +4,23 @@ import Scroll from 'utils/scroll'
 
 class BackTop extends Scroll {
     constructor(el, critical_point, scrollContainer, CHANGED_CLASS_NAME, eventEl = scrollContainer) {
-        super(el, critical_point, scrollContainer, CHANGED_CLASS_NAME, eventEl = scrollContainer)
+        super(el, critical_point, scrollContainer, CHANGED_CLASS_NAME, eventEl)
+        console.log(this.el)
     }
 
     bindEvent() {
         super.bindEvent()
-        this.eventEl.addEventListener('click', () => {
+        this.el.addEventListener('click', () => {
             this.scrollTo()
         })
     }
 
-    scrollTo(top = 0, left = 0) {
-        this.scrollContainer.scrollTo({ top, left , behavior: 'smooth'})
-    }
-
     change() {
-        this.el.classList.remove(CHANGED_CLASS_NAME)
+        this.el.classList.remove(this.CHANGED_CLASS_NAME)
     }
 
     reset() {
-        this.el.classList.add(CHANGED_CLASS_NAME)
+        this.el.classList.add(this.CHANGED_CLASS_NAME)
     }
 }
 

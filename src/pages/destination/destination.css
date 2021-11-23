@@ -10,5 +10,6 @@
     top: 149px;
     bottom: 48px;
     background-color: #fff;
+    display: flex;
 }
 

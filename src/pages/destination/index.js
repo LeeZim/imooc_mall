@@ -6,3 +6,4 @@ import './destination.css'
 
 // 组件
 import './components'
+import 'components/destination'

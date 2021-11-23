@@ -5,4 +5,4 @@ const CHANGED_CLASS_NAME = 'backtop-hidden';
 const scrollContainer = document.getElementById('index-page')
 const backtopEl = scrollContainer.querySelector('.backtop')
 
-new BackTop(backtopEl, window.innerHeight, scrollContainer, CHANGED_CLASS_NAME)
+const backtop = new BackTop(backtopEl, window.innerHeight, scrollContainer, CHANGED_CLASS_NAME)

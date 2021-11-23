@@ -1,0 +1,23 @@
+<ul class="tab">
+    <li class="tab-item tab-item-active" data-id="0">
+        亚洲
+    </li>
+    <li class="tab-item" data-id="1">
+        欧洲
+    </li>
+    <li class="tab-item" data-id="2">
+        非洲
+    </li>
+    <li class="tab-item" data-id="3">
+        北美
+    </li>
+    <li class="tab-item" data-id="4">
+        大洋洲
+    </li>
+    <li class="tab-item" data-id="5">
+        大洋洲
+    </li>
+    <li class="tab-item" data-id="6">
+        南极洲
+    </li>
+</ul>
