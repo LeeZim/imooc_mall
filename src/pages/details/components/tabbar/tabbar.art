@@ -1,0 +1,9 @@
+<div class="tabbar">
+    <div class="tabbar-leftBtns">
+        <button><i class="iconfont icon-service"></i>咨询</button>
+        <button><i class="iconfont icon-collect"></i>收藏</button>
+    </div>
+    <div class="tabbar-rightBtns">
+        <button>立即预定</button>
+    </div>
+</div>

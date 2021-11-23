@@ -20,7 +20,7 @@
     
         <!-- 页脚 -->
         <div class="tabbar-layout">
-            页脚
+            {{ include './components/tabbar/tabbar.art' }}
         </div>
     </div>
     
