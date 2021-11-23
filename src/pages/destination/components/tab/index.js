@@ -31,7 +31,8 @@ class Tab {
     }
 
     toIndex(index) {
-        setData(`${apiUrl}${Number(index)+1}`, LAYOUT_ID, render)
+        if (this.ctl) this.ctl.abort();
+        this.ctl = setData(`${apiUrl}${Number(index)+1}`, LAYOUT_ID, render)
     }
 }
 

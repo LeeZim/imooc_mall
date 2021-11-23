@@ -5,7 +5,6 @@ import Scroll from 'utils/scroll'
 class BackTop extends Scroll {
     constructor(el, critical_point, scrollContainer, CHANGED_CLASS_NAME, eventEl = scrollContainer) {
         super(el, critical_point, scrollContainer, CHANGED_CLASS_NAME, eventEl)
-        console.log(this.el)
     }
 
     bindEvent() {
