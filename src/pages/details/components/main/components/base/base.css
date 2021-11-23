@@ -1,0 +1,43 @@
+.product-info {
+    padding-bottom: 11px;
+    border-bottom: 1px solid rgba(218,218,218,.5)
+}
+
+.product-title {
+    line-height: 24px;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.product-tags {
+    margin-bottom: 12px;
+    display: flex;
+}
+
+.product-tags .tag {
+    display: block;
+    border: 1px solid #5278A0;
+    height: 24px;
+    color: #5278A0;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+    margin-right: 12px;
+    padding: 0 12px;
+}
+
+.product-else {
+    width: 100%;
+    overflow: hidden;
+    color: #999;
+    font-size: 12px;
+}
+
+.else-vistorCounts {
+    float: left;
+}
+
+.else-soldCounts {
+    float: right;
+}

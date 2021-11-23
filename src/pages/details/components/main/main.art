@@ -1,0 +1,18 @@
+<div class="main-container">
+    <div class="product-img" style="background: url('{{data.img}}')  no-repeat;background-size: cover;"></div>
+    <div class="product-content">
+        {{ include './components/base/base.art' }}
+        <% include('./components/content/content.art', {
+            title: '产品简介',
+            intros: data.intros
+        }) %>
+        <% include('./components/content/content.art', {
+            title: '预定流程',
+            img: require('./img_prebook.png')
+        }) %>
+        <% include('./components/content/content.art', {
+            title: '退款流程',
+            refund: data.refund
+        }) %>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+.details-page {
+    height: 100%;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.details-layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-layout {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

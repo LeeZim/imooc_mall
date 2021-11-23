@@ -1,1 +1,28 @@
-details
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>慕云游</title>
+</head>
+<body>
+    <div id="details-page" class="details-page">
+        <!-- 头部 -->
+        <header class="header-layout">
+            {{ include './components/header/header.art' }}
+        </header>
+    
+        <!-- 主体 -->
+        <section id="main-layout" class="main-layout">
+            {{ include '../../components/loading/loading.art' }}
+        </section>
+    
+        <!-- 页脚 -->
+        <div class="tabbar-layout">
+            页脚
+        </div>
+    </div>
+    
+</body>
+</html>

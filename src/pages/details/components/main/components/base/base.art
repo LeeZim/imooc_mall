@@ -1,0 +1,12 @@
+<div class="product-info">
+    <p class="product-title">{{ data.title }}</p>
+    <p class="product-tags">
+        {{each data.tags}}
+        <span class="tag">{{ $value }}</span>
+        {{/each}}
+    </p>
+    <p class="product-else">
+        <span class="else-vistorCounts">浏览 {{ data.vistor_counts }}</span>
+        <span class="else-soldCounts">已售 {{ data.sold_counts }}份</span>
+    </p>
+</div>

@@ -1,0 +1,28 @@
+.header {
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.topbar {
+    color: #fff;
+    /* height: 100%; */
+    width: 100%;
+}
+
+.topbar>a {
+    color: #fff
+}
+
+.topbar>a:first-child {
+    float: left;
+}
+
+.topbar>a:nth-child(2) {
+    float: right;
+}
+.topbar>a:nth-child(3) {
+    float: right;
+    margin-right: 20px;
+}
