@@ -14,7 +14,8 @@ module.exports = {
     entry: {
         index: './src/pages/index/index.js',
         destination: './src/pages/destination/index.js',
-        personal: './src/pages/personal/index.js'
+        personal: './src/pages/personal/index.js',
+        details: './src/pages/details/index.js'
     },
     // webpack输出路径
     output: {
@@ -84,6 +85,11 @@ module.exports = {
             filename: 'personal.html',
             template: './src/pages/personal/personal.art',
             chunks: ['personal']
+        }),
+        new htmlWebpackPlugin({
+            filename: 'details.html',
+            template: './src/pages/details/details.art',
+            chunks: ['details']
         })
     ]
 }
