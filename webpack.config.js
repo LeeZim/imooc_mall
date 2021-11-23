@@ -13,7 +13,8 @@ module.exports = {
     // 入口文件
     entry: {
         index: './src/pages/index/index.js',
-        destination: './src/pages/destination/index.js'
+        destination: './src/pages/destination/index.js',
+        personal: './src/pages/personal/index.js'
     },
     // webpack输出路径
     output: {
@@ -78,6 +79,11 @@ module.exports = {
             filename: 'destination.html',
             template: './src/pages/destination/destination.art',
             chunks: ['destination']
+        }),
+        new htmlWebpackPlugin({
+            filename: 'personal.html',
+            template: './src/pages/personal/personal.art',
+            chunks: ['personal']
         })
     ]
 }

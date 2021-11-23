@@ -1,0 +1,8 @@
+<div class="main-container">
+    <div id="user_layout" class="user-layout">
+        {{ include '../user/user.art' }}
+    </div>
+    <div class="menu-layout">
+        {{ include '../menu/menu.art' }}
+    </div>
+</div>

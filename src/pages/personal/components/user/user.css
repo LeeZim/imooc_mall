@@ -1,0 +1,33 @@
+.user-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -35%;
+    z-index: 1000;
+    width: 100%;
+}
+
+.user-img {
+    min-height: 139px;
+    min-width: 139px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+    background-color: #fff;
+    box-shadow:0 2px 2px rgba(0, 0, 0, .15);
+}
+
+.user-name {
+    color: #203152;
+    font-size: 20px;
+    letter-spacing: 0;
+    margin-bottom: 1px;
+}
+
+.user-phone {
+    font-size: 14px;
+    color: #7C8698;
+    letter-spacing: 0;
+}

@@ -1,0 +1,5 @@
+<div class="user-container">
+  <img class="user-img" src="./User_base.png" alt="" />
+  <span class="user-name">王豆豆</span>
+  <span class="user-phone">13333333333</span>
+</div>

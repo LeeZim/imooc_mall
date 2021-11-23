@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>慕云游</title>
+</head>
+<body>
+    <!-- 头部 -->
+    <header class="header-layout">
+    </header>
+
+    <!-- 内容 -->
+    <section class="main-layout">
+        {{ include './components/main/main.art' }}
+    </section>
+
+    <!-- 标签栏 -->
+    <div class="tabbar-layout">
+        <% include('../../components/tabbar/tabbar.art', { active: 'personal' }) %>
+    </div>
+</body>
+</html>

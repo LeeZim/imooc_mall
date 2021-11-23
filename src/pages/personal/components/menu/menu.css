@@ -1,0 +1,17 @@
+.menu-item {
+    height: 30px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.menu-item a {
+    color: #262626;
+    font-size: 14px;
+    display: block;
+}
+
+.menu-item a i {
+    float: right;
+    font-size: 20px;
+    margin-right: 20px;
+}

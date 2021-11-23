@@ -1,0 +1,14 @@
+.header-layout {
+    height: 149px;
+    background: url('./Cover.png') no-repeat;
+    background-size: cover;
+}
+
+.main-layout {
+    padding-top: 149px;
+    padding-bottom: 48px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
